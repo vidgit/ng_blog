@@ -12,6 +12,73 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
+
+$mat-v1-pal: (
+  50: #ffb5a2,
+  100: #ffb5a2,
+  200: #ffb5a2,
+  300: #ffb5a2,
+  400: #ffb5a2,
+  500: #ffb5a2,
+  600: #ffb5a2,
+  700: #ffb5a2,
+  800: #ffb5a2,
+  900: #ffb5a2,
+  A100: #ffb5a2,
+  A200: #ffb5a2,
+  A400: #ffb5a2,
+  A700: #ffb5a2,
+  contrast: (
+    50: $dark-primary-text,
+    100: $dark-primary-text,
+    200: $dark-primary-text,
+    300: $dark-primary-text,
+    400: $light-primary-text,
+    500: $light-primary-text,
+    600: $light-primary-text,
+    700: $light-primary-text,
+    800: $light-primary-text,
+    900: $light-primary-text,
+    A100: $dark-primary-text,
+    A200: $dark-primary-text,
+    A400: $light-primary-text,
+    A700: $light-primary-text,
+  )
+);
+
+$mat-v2-pal: (
+  50: #a2ecff,
+  100: #a2ecff,
+  200: #a2ecff,
+  300: #a2ecff,
+  400: #a2ecff,
+  500: #a2ecff,
+  600: #a2ecff,
+  700: #a2ecff,
+  800: #a2ecff,
+  900: #a2ecff,
+  A100: aliceblue,
+  A200: #a2ecff,
+  A400: #dbf8ff,
+  A700: #62dffc,
+  contrast: (
+    50: $light-primary-text,
+    100: $light-primary-text,
+    200: $light-primary-text,
+    300: $light-primary-text,
+    400: $light-primary-text,
+    500: $light-primary-text,
+    600: $light-primary-text,
+    700: $light-primary-text,
+    800: $light-primary-text,
+    900: $light-primary-text,
+    A100: $light-primary-text,
+    A200: $light-primary-text,
+    A400: $light-primary-text,
+    A700: $light-primary-text,
+  )
+);
+
 $ng-blog-primary: mat-palette($mat-v1-pal);
 $ng-blog-accent: mat-palette($mat-v2-pal, A200, A100, A400);
 
